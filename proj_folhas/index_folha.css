@@ -68,13 +68,13 @@ h2 {
     padding-top: 5px;
 }
 
-.container-paragrafo-superior {
+.container-paragrafo-tabela {
     width: 300px;
     height: 100px;
     margin: 0 auto;
 }
 
-.paragrafo-superior {
+.paragrafo-tabela {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
@@ -86,4 +86,21 @@ h2 {
     width: 429px;
     height: 53px;
     margin: 0 auto;
+}
+
+.tabela-inferior {
+    width: 322px;
+    height: 180px;
+    display: contents;
+}
+
+.tab-esquerda {
+    text-align: center;
+    border: 3px solid #2B903C;
+    border-radius: 27px;
+    height: 180px;
+    width: 320px;
+    padding: 8px 5px 0 0;
+    margin: 0 auto;
+    float: left;
 }
