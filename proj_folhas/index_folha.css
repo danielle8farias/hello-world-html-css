@@ -115,3 +115,12 @@ h2 {
     margin: 0 auto;
     float: right;
 }
+
+.container-abas {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.cabecalho-aba {
+    width: 750px;
+}
