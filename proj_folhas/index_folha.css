@@ -123,4 +123,28 @@ h2 {
 
 .cabecalho-aba {
     width: 750px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.cabecalho-aba ul {
+    list-style: none;
+
+}
+
+.item-lista-cabecalho-aba {
+    float: left;
+}
+
+.cabecalho-aba label {
+    display: inline-block;
+    background: #EAEBEE;
+    border: 1px solid #C4C4C4;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 1px;
+    text-align: center;
 }
