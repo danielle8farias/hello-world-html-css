@@ -136,6 +136,7 @@ h2 {
 
 .item-lista-cabecalho-aba {
     float: left;
+    margin-right: 4px;
 }
 
 .cabecalho-aba label {
@@ -145,10 +146,26 @@ h2 {
     padding: 15px;
     cursor: pointer;
     border-radius: 5px 5px 0 0;
-    margin-bottom: 1px;
     text-align: center;
 }
 
+/** muda de cor ao clicar na aba */
 .rd-abas:checked ~ label {
     background-color: #fff;
+}
+
+.rd-abas {
+    display: none;
+}
+
+.corpo-aba {
+    border-top: 1px solid #C4C4C4;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    width: 700px;
+}
+
+.rd-abas:checked ~ .corpo-aba {
+    display: block;
 }
