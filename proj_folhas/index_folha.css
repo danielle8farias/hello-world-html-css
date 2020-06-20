@@ -129,7 +129,7 @@ h2 {
     position: relative;
 }
 
-.cabecalho-aba ul {
+.lista-cabecalho-aba {
     list-style: none;
 
 }
@@ -147,4 +147,8 @@ h2 {
     border-radius: 5px 5px 0 0;
     margin-bottom: 1px;
     text-align: center;
+}
+
+.rd-abas:checked ~ label {
+    background-color: #fff;
 }
