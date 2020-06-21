@@ -131,27 +131,24 @@ h2 {
 
 .lista-cabecalho-aba {
     list-style: none;
-
 }
 
 .item-lista-cabecalho-aba {
     float: left;
-    margin-right: 4px;
 }
 
 .cabecalho-aba label {
-    display: inline-block;
-    background: #EAEBEE;
-    border: 1px solid #C4C4C4;
-    padding: 15px;
+    width: 100px;
+    padding: 25px;
+    display: block;
+    background-color: #a6a6a7;
     cursor: pointer;
-    border-radius: 5px 5px 0 0;
     text-align: center;
 }
 
 /** muda de cor ao clicar na aba */
 .rd-abas:checked ~ label {
-    background-color: #fff;
+    background-color: #EAEBEE;
 }
 
 .rd-abas {
@@ -159,13 +156,20 @@ h2 {
 }
 
 .corpo-aba {
-    border-top: 1px solid #C4C4C4;
+    border-top: 5px solid #EAEBEE;
     background-color: #fff;
     display: none;
     position: absolute;
+    height: 750px;
     width: 700px;
+    left: 0;
 }
 
 .rd-abas:checked ~ .corpo-aba {
     display: block;
+}
+
+.corpo-aba article {
+    padding: 2px;
+    
 }
