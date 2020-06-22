@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.foto-legenda {
+    position: relative;
+    border: 8px solid #fff;
+    box-shadow: 1px 1px 4px #000;
+}
+
+.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.foto-legenda:hover figcaption {
+    opacity: 1;
+}
