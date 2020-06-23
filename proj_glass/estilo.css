@@ -13,6 +13,29 @@ body {
     position: relative;
 }
 
+#cabecalho {
+    border-bottom: 1px solid #606060;
+    height: 150px;
+    background: url("img/glass-logo-peq.jpg") no-repeat 0px 90px;
+}
+
+#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#cabecalho h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+    font-size: 15pt;
+    padding: 0;
+    margin-top: 0;
+}
+
 #icone {
     position: absolute;
     left: 720px;
