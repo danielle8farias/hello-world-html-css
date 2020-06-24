@@ -2,6 +2,7 @@
 
 body {
     background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #interface {
@@ -38,6 +39,30 @@ body {
     margin-top: 0;
 }
 
+header#cabecalho-artigo h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #fff;
+    margin: 0;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12pt;
+    color: #606060;
+}
+
+.direita {
+    text-align: right;
+}
+
 #icone {
     position: absolute;
     left: 720px;
@@ -47,6 +72,15 @@ body {
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .foto-legenda {
@@ -120,6 +154,55 @@ p {
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
+}
+
+#corpo h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tabela-tec caption {
+    color: #888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+#tabela-tec span {
+    display: block;
+    float: right;
+    color: #000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+#tabela-tec {
+    border: 1px solid #606060;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabela-tec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+}
+
+.col-esq {
+    color: #fff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.col-dir {
+    background-color: #cecece;
 }
 
 #lateral {
