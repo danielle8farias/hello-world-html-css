@@ -1,6 +1,7 @@
 /* seletor CSS */
 body {
     /* propriedade */
-    /*  atribuição é o 'dois pontos' */
-    background-color: gray; /* valor */
+    /*      atribuição é o 'dois pontos' */
+    background-color: green; /* valor */
+                             /* usar 'ponto e vírgula' no final */
 }
