@@ -7,16 +7,23 @@
 
         <!-- usando CSS externo -->
         <!-- pode ser usada por qualquer documento HTML que apontar para o link dele -->
+        <!-- 3º na lista de precedência do CSS -->
         <link rel="stylesheet" href="ex0001_inserindo_css.css">
 
         <title>Documento</title>
 
         <!-- usando CSS incorporado -->
         <style>
+            /* 2º na lista de precedência do CSS */
+            body {
+                background-color: blue;
+            }
         </style>
     </head>
+    
     <!-- usando CSS inline -->
-    <body style="margin: auto;">
+    <!-- 1º na lista de precedência do CSS -->
+    <body style="background-color: violet;">
 
     </body>
 </html>
