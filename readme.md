@@ -11,3 +11,4 @@
 
 - [ex0005:](exercicio_html_css/ex0005_div_propriedades/ex0005_div_propriedades.html) Propriedades de borda, margem, padding, background-clip, etc.
 
+- [ex0006:](exercicio_html_css/ex0006_borda_img/ex0006_borda_img.html) Tipos diversos de bordas com imagens.
