@@ -7,3 +7,5 @@
 
 - [ex0003:](exercicio_html_css/ex0003_class_id/ex0003_class_id.html) Usando classes e ids como seletores do CSS.
 
+- [ex0004:](exercicio_html_css/ex0004_add_img/ex0004_add_img.html) Adicionando imagens no documento HTML através do CSS.
+
