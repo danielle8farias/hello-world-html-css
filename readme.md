@@ -9,3 +9,5 @@
 
 - [ex0004:](exercicio_html_css/ex0004_add_img/ex0004_add_img.html) Adicionando imagens no documento HTML através do CSS.
 
+- [ex0005:](exercicio_html_css/ex0005_div_propriedades/ex0005_div_propriedades.html) Propriedades de borda, margem, padding, background-clip, etc.
+
