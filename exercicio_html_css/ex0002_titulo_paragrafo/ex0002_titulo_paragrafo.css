@@ -1,0 +1,13 @@
+h1 {
+    color: indigo;
+}
+
+h2, h3 {
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+p {
+    color: maroon;
+    text-decoration: underline blue;
+}
