@@ -1,0 +1,26 @@
+body {
+    /* adicionando fundo da imgem através do CSS */
+    background-image: url(img/flower-pollen.jpg), url(img/flowers-wedding.jpg);
+    background-size: 500px, 800px; /* posição da segunda imagem */
+    background-repeat: no-repeat, repeat;
+    background-position: 50% 50%;
+}
+
+div.texto {
+    width: 750px;
+    height: 150px;
+    background-image: url(img/flower.jpg);
+    font-size: 20px;
+    color: khaki;
+}
+
+article p {
+    width: 850px;
+    height: 200px;
+    background-image: url(img/flower-icon.png);
+    background-size: 175px;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: gray;
+    color: honeydew;
+}
