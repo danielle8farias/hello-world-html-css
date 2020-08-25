@@ -1,0 +1,25 @@
+p {
+    width: 850px;
+    border: 18px solid;
+    margin: 25px;
+}
+
+#borda1 {
+    border-image: url(img/losangos.png) 40 round;
+}
+
+#borda2 {
+    border-image: url(img/losangos.png) 40 stretch;
+}
+
+#borda3 {
+    border-image: url(img/losangos.png) 50 round;
+}
+
+#borda4 {
+    border-image: url(img/losangos.png) 20% round;
+}
+
+#borda5 {
+    border-image: url(img/losangos.png) 30% round;
+}
